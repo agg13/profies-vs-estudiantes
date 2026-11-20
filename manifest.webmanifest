@@ -1,0 +1,30 @@
+{
+  "id": "./",
+  "name": "La última asesoría mortal: Profesores Zombis",
+  "short_name": "Los Profies",
+  "description": "Explora la Universidad YCT, ayuda a otros estudiantes y libera a los Profies mediante retos académicos.",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "landscape",
+  "background_color": "#07111f",
+  "theme_color": "#0f172a",
+  "categories": ["games", "education"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

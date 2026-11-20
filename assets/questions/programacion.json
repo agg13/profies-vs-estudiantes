@@ -1,0 +1,602 @@
+[
+  {
+    "id": "PRO-01",
+    "area": "Programación",
+    "topic": "Lógica de programación",
+    "difficulty": "básica",
+    "question": "¿Qué estructura ejecuta instrucciones solo si se cumple una condición?",
+    "options": [
+      "Secuencia",
+      "Selección",
+      "Arreglo",
+      "Compilador"
+    ],
+    "correctIndex": 1,
+    "explanation": "La selección se expresa normalmente con if o switch."
+  },
+  {
+    "id": "PRO-02",
+    "area": "Programación",
+    "topic": "Lógica de programación",
+    "difficulty": "básica",
+    "question": "¿Qué estructura repite instrucciones mientras una condición sea verdadera?",
+    "options": [
+      "Condicional",
+      "Ciclo",
+      "Función pura",
+      "Variable"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los ciclos controlan la repetición."
+  },
+  {
+    "id": "PRO-03",
+    "area": "Programación",
+    "topic": "Lógica de programación",
+    "difficulty": "media",
+    "question": "¿Qué debe ocurrir para evitar un ciclo infinito controlado por contador?",
+    "options": [
+      "El contador debe acercarse a la condición de salida",
+      "La condición debe ser siempre verdadera",
+      "No debe existir contador",
+      "Debe eliminarse el cuerpo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cada iteración debe avanzar hacia la terminación."
+  },
+  {
+    "id": "PRO-04",
+    "area": "Programación",
+    "topic": "Lógica de programación",
+    "difficulty": "básica",
+    "question": "En pseudocódigo, ¿qué operador se usa para comparar igualdad sin asignar?",
+    "options": [
+      "Asignación",
+      "Comparación",
+      "Concatenación",
+      "Módulo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Comparar igualdad no debe modificar la variable."
+  },
+  {
+    "id": "PRO-05",
+    "area": "Programación",
+    "topic": "Lógica de programación",
+    "difficulty": "media",
+    "question": "¿Qué técnica divide un problema grande en funciones pequeñas?",
+    "options": [
+      "Modularización",
+      "Duplicación",
+      "Ofuscación",
+      "Serialización"
+    ],
+    "correctIndex": 0,
+    "explanation": "La modularización separa responsabilidades manejables."
+  },
+  {
+    "id": "PRO-06",
+    "area": "Programación",
+    "topic": "Lógica de programación",
+    "difficulty": "básica",
+    "question": "¿Qué valor produce verdadero AND falso?",
+    "options": [
+      "Verdadero",
+      "Falso",
+      "Nulo",
+      "Indefinido siempre"
+    ],
+    "correctIndex": 1,
+    "explanation": "AND solo es verdadero si ambos operandos lo son."
+  },
+  {
+    "id": "PRO-07",
+    "area": "Programación",
+    "topic": "Lógica de programación",
+    "difficulty": "media",
+    "question": "¿Qué representa una traza de escritorio?",
+    "options": [
+      "La ejecución paso a paso y valores de variables",
+      "El diseño visual final",
+      "La instalación del lenguaje",
+      "El tamaño del archivo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Permite seguir manualmente el estado del algoritmo."
+  },
+  {
+    "id": "PRO-08",
+    "area": "Programación",
+    "topic": "Lógica de programación",
+    "difficulty": "básica",
+    "question": "¿Qué característica debe tener un algoritmo correcto?",
+    "options": [
+      "Ser ambiguo",
+      "Tener pasos finitos y definidos",
+      "Depender del azar siempre",
+      "No recibir datos"
+    ],
+    "correctIndex": 1,
+    "explanation": "Un algoritmo debe ser preciso y terminar."
+  },
+  {
+    "id": "PRO-09",
+    "area": "Programación",
+    "topic": "Lógica de programación",
+    "difficulty": "media",
+    "question": "¿Para qué sirve una función con valor de retorno?",
+    "options": [
+      "Entregar un resultado al punto que la llamó",
+      "Reiniciar el equipo",
+      "Crear siempre una interfaz",
+      "Eliminar variables globales"
+    ],
+    "correctIndex": 0,
+    "explanation": "El retorno comunica el resultado calculado."
+  },
+  {
+    "id": "PRO-10",
+    "area": "Programación",
+    "topic": "Lógica de programación",
+    "difficulty": "media",
+    "question": "Si una condición compleja usa NOT(A OR B), es equivalente a:",
+    "options": [
+      "NOT A OR NOT B",
+      "NOT A AND NOT B",
+      "A AND B",
+      "A OR B"
+    ],
+    "correctIndex": 1,
+    "explanation": "Es una ley de De Morgan."
+  },
+  {
+    "id": "PRO-11",
+    "area": "Programación",
+    "topic": "Estructuras de datos",
+    "difficulty": "básica",
+    "question": "¿Qué principio sigue una pila?",
+    "options": [
+      "FIFO",
+      "LIFO",
+      "Orden aleatorio",
+      "Prioridad fija"
+    ],
+    "correctIndex": 1,
+    "explanation": "El último elemento en entrar es el primero en salir."
+  },
+  {
+    "id": "PRO-12",
+    "area": "Programación",
+    "topic": "Estructuras de datos",
+    "difficulty": "básica",
+    "question": "¿Qué principio sigue una cola ordinaria?",
+    "options": [
+      "LIFO",
+      "FIFO",
+      "Orden descendente obligatorio",
+      "Acceso por hash"
+    ],
+    "correctIndex": 1,
+    "explanation": "El primero en entrar es el primero en salir."
+  },
+  {
+    "id": "PRO-13",
+    "area": "Programación",
+    "topic": "Estructuras de datos",
+    "difficulty": "media",
+    "question": "¿Qué ventaja ofrece una lista enlazada frente a un arreglo contiguo?",
+    "options": [
+      "Acceso aleatorio O(1) siempre",
+      "Inserciones sin desplazar todos los elementos",
+      "Orden automático",
+      "No usa memoria"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los enlaces permiten insertar ajustando referencias."
+  },
+  {
+    "id": "PRO-14",
+    "area": "Programación",
+    "topic": "Estructuras de datos",
+    "difficulty": "media",
+    "question": "En un árbol binario, cada nodo tiene como máximo:",
+    "options": [
+      "Un hijo",
+      "Dos hijos",
+      "Tres hijos",
+      "Cuatro hijos"
+    ],
+    "correctIndex": 1,
+    "explanation": "Puede tener hijo izquierdo y derecho."
+  },
+  {
+    "id": "PRO-15",
+    "area": "Programación",
+    "topic": "Estructuras de datos",
+    "difficulty": "media",
+    "question": "¿Qué estructura asocia claves con valores?",
+    "options": [
+      "Pila",
+      "Tabla hash",
+      "Cola circular",
+      "Matriz identidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "Una tabla hash localiza valores mediante claves."
+  },
+  {
+    "id": "PRO-16",
+    "area": "Programación",
+    "topic": "Estructuras de datos",
+    "difficulty": "media",
+    "question": "¿Qué recorrido de árbol visita raíz, izquierda y derecha?",
+    "options": [
+      "Preorden",
+      "Inorden",
+      "Postorden",
+      "Por niveles"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ese es el orden raíz-izquierda-derecha."
+  },
+  {
+    "id": "PRO-17",
+    "area": "Programación",
+    "topic": "Estructuras de datos",
+    "difficulty": "media",
+    "question": "¿Qué estructura modela mejor una red de rutas entre ciudades?",
+    "options": [
+      "Pila",
+      "Grafo",
+      "Arreglo unidimensional",
+      "Cadena"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los vértices representan ciudades y las aristas rutas."
+  },
+  {
+    "id": "PRO-18",
+    "area": "Programación",
+    "topic": "Estructuras de datos",
+    "difficulty": "básica",
+    "question": "¿Qué índice tiene normalmente el primer elemento de un arreglo en C y Python?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "Depende del valor"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ambos lenguajes usan índice inicial cero."
+  },
+  {
+    "id": "PRO-19",
+    "area": "Programación",
+    "topic": "Estructuras de datos",
+    "difficulty": "media",
+    "question": "¿Cuál es el costo típico de buscar por clave en una tabla hash bien distribuida?",
+    "options": [
+      "O(1) promedio",
+      "O(n²) siempre",
+      "O(2ⁿ)",
+      "O(n!)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una buena función hash permite acceso promedio constante."
+  },
+  {
+    "id": "PRO-20",
+    "area": "Programación",
+    "topic": "Estructuras de datos",
+    "difficulty": "media",
+    "question": "¿Qué operación retira el elemento superior de una pila?",
+    "options": [
+      "push",
+      "pop",
+      "enqueue",
+      "peek sin retirar"
+    ],
+    "correctIndex": 1,
+    "explanation": "pop elimina y devuelve la cima."
+  },
+  {
+    "id": "PRO-21",
+    "area": "Programación",
+    "topic": "C/C++ básico",
+    "difficulty": "básica",
+    "question": "¿Qué símbolo termina normalmente una instrucción en C/C++?",
+    "options": [
+      "Dos puntos",
+      "Punto y coma",
+      "Coma",
+      "Almohadilla"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las sentencias suelen terminar con punto y coma."
+  },
+  {
+    "id": "PRO-22",
+    "area": "Programación",
+    "topic": "C/C++ básico",
+    "difficulty": "básica",
+    "question": "¿Qué tipo almacena números enteros en C/C++?",
+    "options": [
+      "int",
+      "float",
+      "char*",
+      "bool únicamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "int representa valores enteros."
+  },
+  {
+    "id": "PRO-23",
+    "area": "Programación",
+    "topic": "C/C++ básico",
+    "difficulty": "media",
+    "question": "¿Qué operador obtiene la dirección de una variable en C?",
+    "options": [
+      "*",
+      "&",
+      "%",
+      "::"
+    ],
+    "correctIndex": 1,
+    "explanation": "El operador & produce la dirección de memoria de una variable."
+  },
+  {
+    "id": "PRO-24",
+    "area": "Programación",
+    "topic": "C/C++ básico",
+    "difficulty": "media",
+    "question": "¿Qué representa un puntero?",
+    "options": [
+      "Una variable que almacena una dirección de memoria",
+      "Una función sin retorno",
+      "Un arreglo ordenado",
+      "Una constante textual"
+    ],
+    "correctIndex": 0,
+    "explanation": "Su valor referencia una ubicación de memoria."
+  },
+  {
+    "id": "PRO-25",
+    "area": "Programación",
+    "topic": "C/C++ básico",
+    "difficulty": "básica",
+    "question": "¿Qué encabezado de C++ permite usar cout?",
+    "options": [
+      "<iostream>",
+      "<math.h>",
+      "<string.h>",
+      "<stdlib.h> exclusivamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "cout forma parte de la biblioteca iostream."
+  },
+  {
+    "id": "PRO-26",
+    "area": "Programación",
+    "topic": "C/C++ básico",
+    "difficulty": "media",
+    "question": "¿Qué diferencia básica tiene ++i frente a i++ dentro de una expresión?",
+    "options": [
+      "++i incrementa antes de producir el valor",
+      "i++ nunca incrementa",
+      "++i resta uno",
+      "Son tipos distintos"
+    ],
+    "correctIndex": 0,
+    "explanation": "El prefijo incrementa antes; el sufijo entrega primero el valor previo."
+  },
+  {
+    "id": "PRO-27",
+    "area": "Programación",
+    "topic": "C/C++ básico",
+    "difficulty": "media",
+    "question": "¿Para qué sirve const?",
+    "options": [
+      "Indicar que un valor no debe modificarse mediante ese identificador",
+      "Crear un ciclo",
+      "Liberar memoria",
+      "Importar una biblioteca"
+    ],
+    "correctIndex": 0,
+    "explanation": "const expresa intención de inmutabilidad."
+  },
+  {
+    "id": "PRO-28",
+    "area": "Programación",
+    "topic": "C/C++ básico",
+    "difficulty": "media",
+    "question": "¿Qué función libera memoria obtenida con new en C++?",
+    "options": [
+      "free siempre",
+      "delete",
+      "remove",
+      "clear"
+    ],
+    "correctIndex": 1,
+    "explanation": "delete libera objetos reservados con new."
+  },
+  {
+    "id": "PRO-29",
+    "area": "Programación",
+    "topic": "C/C++ básico",
+    "difficulty": "básica",
+    "question": "¿Qué devuelve normalmente main al sistema al terminar correctamente?",
+    "options": [
+      "0",
+      "1 obligatoriamente",
+      "-1 siempre",
+      "Una cadena"
+    ],
+    "correctIndex": 0,
+    "explanation": "El código cero indica terminación exitosa."
+  },
+  {
+    "id": "PRO-30",
+    "area": "Programación",
+    "topic": "C/C++ básico",
+    "difficulty": "media",
+    "question": "¿Qué mecanismo permite definir varias funciones con el mismo nombre y parámetros distintos en C++?",
+    "options": [
+      "Sobrecarga",
+      "Herencia múltiple obligatoria",
+      "Macro",
+      "Puntero nulo"
+    ],
+    "correctIndex": 0,
+    "explanation": "La sobrecarga distingue funciones por su firma."
+  },
+  {
+    "id": "PRO-31",
+    "area": "Programación",
+    "topic": "Python básico",
+    "difficulty": "básica",
+    "question": "¿Cómo se define una función en Python?",
+    "options": [
+      "function nombre()",
+      "def nombre():",
+      "fun nombre {}",
+      "define nombre end"
+    ],
+    "correctIndex": 1,
+    "explanation": "Python usa def, nombre, paréntesis y dos puntos."
+  },
+  {
+    "id": "PRO-32",
+    "area": "Programación",
+    "topic": "Python básico",
+    "difficulty": "básica",
+    "question": "¿Qué tipo representa una secuencia mutable en Python?",
+    "options": [
+      "tuple",
+      "list",
+      "str",
+      "frozenset"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las listas permiten modificar sus elementos."
+  },
+  {
+    "id": "PRO-33",
+    "area": "Programación",
+    "topic": "Python básico",
+    "difficulty": "media",
+    "question": "¿Qué produce range(3)?",
+    "options": [
+      "1,2,3",
+      "0,1,2",
+      "0,1,2,3",
+      "3 únicamente"
+    ],
+    "correctIndex": 1,
+    "explanation": "El límite superior no se incluye."
+  },
+  {
+    "id": "PRO-34",
+    "area": "Programación",
+    "topic": "Python básico",
+    "difficulty": "básica",
+    "question": "¿Qué operador calcula una potencia en Python?",
+    "options": [
+      "^",
+      "**",
+      "//",
+      "%%"
+    ],
+    "correctIndex": 1,
+    "explanation": "El doble asterisco es el operador de exponenciación."
+  },
+  {
+    "id": "PRO-35",
+    "area": "Programación",
+    "topic": "Python básico",
+    "difficulty": "media",
+    "question": "¿Qué diferencia principal existe entre == e is?",
+    "options": [
+      "== compara valores; is compara identidad",
+      "Son siempre idénticos",
+      "is asigna valores",
+      "== importa módulos"
+    ],
+    "correctIndex": 0,
+    "explanation": "is verifica si dos referencias apuntan al mismo objeto."
+  },
+  {
+    "id": "PRO-36",
+    "area": "Programación",
+    "topic": "Python básico",
+    "difficulty": "media",
+    "question": "¿Qué estructura captura una excepción?",
+    "options": [
+      "if/else",
+      "try/except",
+      "for/while",
+      "match/case únicamente"
+    ],
+    "correctIndex": 1,
+    "explanation": "try/except maneja errores durante la ejecución."
+  },
+  {
+    "id": "PRO-37",
+    "area": "Programación",
+    "topic": "Python básico",
+    "difficulty": "básica",
+    "question": "¿Qué devuelve len([10,20,30])?",
+    "options": [
+      "2",
+      "3",
+      "30",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "La lista contiene tres elementos."
+  },
+  {
+    "id": "PRO-38",
+    "area": "Programación",
+    "topic": "Python básico",
+    "difficulty": "media",
+    "question": "¿Qué comprensión crea los cuadrados de 0 a 3?",
+    "options": [
+      "[x*x for x in range(4)]",
+      "{x:range(4)}",
+      "square(0,3)",
+      "[range(4)*2]"
+    ],
+    "correctIndex": 0,
+    "explanation": "La comprensión itera 0,1,2,3 y calcula x*x."
+  },
+  {
+    "id": "PRO-39",
+    "area": "Programación",
+    "topic": "Python básico",
+    "difficulty": "media",
+    "question": "¿Para qué sirve if __name__ == '__main__':?",
+    "options": [
+      "Ejecutar un bloque solo cuando el archivo se inicia directamente",
+      "Declarar una clase",
+      "Instalar Python",
+      "Crear una variable privada"
+    ],
+    "correctIndex": 0,
+    "explanation": "Distingue ejecución directa de importación como módulo."
+  },
+  {
+    "id": "PRO-40",
+    "area": "Programación",
+    "topic": "Python básico",
+    "difficulty": "media",
+    "question": "¿Qué método agrega un elemento al final de una lista?",
+    "options": [
+      "append",
+      "push",
+      "enqueue",
+      "addLast obligatorio"
+    ],
+    "correctIndex": 0,
+    "explanation": "list.append añade un elemento al final. ## Resumen de respuestas | ID | Respuesta | |---|---| | PRO-01 | B | | PRO-02 | B | | PRO-03 | A | | PRO-04 | B | | PRO-05 | A | | PRO-06 | B | | PRO-07 | A | | PRO-08 | B | | PRO-09 | A | | PRO-10 | B | | PRO-11 | B | | PRO-12 | B | | PRO-13 | B | | PRO-14 | B | | PRO-15 | B | | PRO-16 | A | | PRO-17 | B | | PRO-18 | A | | PRO-19 | A | | PRO-20 | B | | PRO-21 | B | | PRO-22 | A | | PRO-23 | B | | PRO-24 | A | | PRO-25 | A | | PRO-26 | A | | PRO-27 | A | | PRO-28 | B | | PRO-29 | A | | PRO-30 | A | | PRO-31 | B | | PRO-32 | B | | PRO-33 | B | | PRO-34 | B | | PRO-35 | A | | PRO-36 | B | | PRO-37 | B | | PRO-38 | A | | PRO-39 | A | | PRO-40 | A |"
+  }
+]

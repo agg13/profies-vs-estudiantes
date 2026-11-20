@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="Explora la Universidad YCT y libera a los Profies mediante retos académicos.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>La última asesoría mortal: Profesores Zombis</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <p class="eyebrow">Versión de demostración · flujo funcional completo</p>
+      <h1>La última asesoría mortal: Profesores Zombis</h1>
+      <p>
+        Usa flechas o WASD para explorar. Presiona <kbd>E</kbd> o
+        <kbd>Espacio</kbd> para interactuar.
+      </p>
+      <button id="install-app-button" class="install-button" type="button" hidden>
+        Instalar juego
+      </button>
+    </header>
+
+    <section class="game-shell" aria-label="Videojuego">
+      <div id="game-container"></div>
+    </section>
+
+    <p id="technical-status" role="status" aria-live="polite">
+      Comprobando Phaser...
+    </p>
+
+    <details>
+      <summary>Controles y alcance</summary>
+      <ul>
+        <li>Movimiento: flechas o WASD.</li>
+        <li>Interacción: E o barra espaciadora.</li>
+        <li>Inventario: I.</li>
+        <li>Estadísticas: P.</li>
+        <li>El Vigilante es el único punto de guardado.</li>
+        <li>En dispositivos compatibles puede instalarse desde el botón superior o desde el menú del navegador.</li>
+      </ul>
+    </details>
+  </main>
+
+  <script src="./js/pwa.js"></script>
+  <script src="./vendor/phaser.min.js"></script>
+  <script src="js/data/game-state.js"></script>
+  <script src="js/services/save-service.js"></script>
+  <script src="js/services/retro-audio.js"></script>
+  <script src="js/services/music-service.js"></script>
+  <script src="js/scenes/boot-scene.js"></script>
+  <script src="js/scenes/intro-scene.js"></script>
+  <script src="js/scenes/name-scene.js"></script>
+  <script src="js/scenes/map-scene.js"></script>
+  <script src="js/scenes/battle-scene.js"></script>
+  <script src="js/scenes/outcome-scene.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

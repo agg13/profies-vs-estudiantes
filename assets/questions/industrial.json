@@ -1,0 +1,602 @@
+[
+  {
+    "id": "IND-01",
+    "area": "Ingeniería Industrial",
+    "topic": "Productividad",
+    "difficulty": "básica",
+    "question": "Una línea produce 240 piezas durante un turno de 8 horas. ¿Cuál es su productividad promedio por hora?",
+    "options": [
+      "20 piezas/hora",
+      "30 piezas/hora",
+      "32 piezas/hora",
+      "40 piezas/hora"
+    ],
+    "correctIndex": 1,
+    "explanation": "La productividad se obtiene al dividir 240 piezas entre 8 horas."
+  },
+  {
+    "id": "IND-02",
+    "area": "Ingeniería Industrial",
+    "topic": "Utilización de capacidad",
+    "difficulty": "básica",
+    "question": "Una planta tiene capacidad de diseño para 900 unidades diarias y produce 720. ¿Cuál es su utilización de capacidad?",
+    "options": [
+      "72 %",
+      "75 %",
+      "80 %",
+      "90 %"
+    ],
+    "correctIndex": 2,
+    "explanation": "720 / 900 × 100 = 80 %."
+  },
+  {
+    "id": "IND-03",
+    "area": "Ingeniería Industrial",
+    "topic": "Porcentaje de defectos",
+    "difficulty": "básica",
+    "question": "En un lote de 600 piezas se detectan 18 defectuosas. ¿Cuál es el porcentaje de piezas defectuosas?",
+    "options": [
+      "2 %",
+      "3 %",
+      "5 %",
+      "18 %"
+    ],
+    "correctIndex": 1,
+    "explanation": "18 / 600 × 100 = 3 %."
+  },
+  {
+    "id": "IND-04",
+    "area": "Ingeniería Industrial",
+    "topic": "Tiempo takt",
+    "difficulty": "media",
+    "question": "Se dispone de 420 minutos efectivos para satisfacer una demanda de 140 unidades. ¿Cuál es el tiempo takt?",
+    "options": [
+      "2 minutos/unidad",
+      "3 minutos/unidad",
+      "4 minutos/unidad",
+      "6 minutos/unidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "El takt se calcula como tiempo disponible entre demanda: 420 / 140 = 3."
+  },
+  {
+    "id": "IND-05",
+    "area": "Ingeniería Industrial",
+    "topic": "Cuello de botella",
+    "difficulty": "media",
+    "question": "Un proceso secuencial tiene operaciones de 2, 4 y 3 minutos por unidad. ¿Qué operación determina el cuello de botella?",
+    "options": [
+      "La de 2 minutos",
+      "La de 3 minutos",
+      "La de 4 minutos",
+      "Todas por igual"
+    ],
+    "correctIndex": 2,
+    "explanation": "La operación con mayor tiempo de ciclo limita la capacidad total."
+  },
+  {
+    "id": "IND-06",
+    "area": "Ingeniería Industrial",
+    "topic": "Promedio móvil",
+    "difficulty": "básica",
+    "question": "Las demandas de los últimos tres periodos fueron 90, 105 y 120 unidades. ¿Cuál es el pronóstico mediante un promedio móvil de tres periodos?",
+    "options": [
+      "100",
+      "105",
+      "110",
+      "315"
+    ],
+    "correctIndex": 1,
+    "explanation": "(90 + 105 + 120) / 3 = 105."
+  },
+  {
+    "id": "IND-07",
+    "area": "Ingeniería Industrial",
+    "topic": "Punto de reorden",
+    "difficulty": "básica",
+    "question": "Un material tiene demanda constante de 25 unidades por día y el proveedor tarda 4 días. Sin considerar inventario de seguridad, ¿cuál es el punto de reorden?",
+    "options": [
+      "29 unidades",
+      "50 unidades",
+      "100 unidades",
+      "125 unidades"
+    ],
+    "correctIndex": 2,
+    "explanation": "25 unidades/día × 4 días = 100 unidades."
+  },
+  {
+    "id": "IND-08",
+    "area": "Ingeniería Industrial",
+    "topic": "Inventario de seguridad",
+    "difficulty": "media",
+    "question": "La demanda es de 20 unidades diarias, el tiempo de entrega es de 3 días y se mantienen 15 unidades de seguridad. ¿Cuál es el punto de reorden?",
+    "options": [
+      "35",
+      "60",
+      "75",
+      "95"
+    ],
+    "correctIndex": 2,
+    "explanation": "Demanda durante la entrega más seguridad: 20 × 3 + 15 = 75."
+  },
+  {
+    "id": "IND-09",
+    "area": "Ingeniería Industrial",
+    "topic": "Punto de equilibrio",
+    "difficulty": "media",
+    "question": "Un producto se vende en $250, tiene costo variable de $150 y costos fijos de $30,000. ¿Cuántas unidades deben venderse para alcanzar el punto de equilibrio?",
+    "options": [
+      "120",
+      "200",
+      "300",
+      "750"
+    ],
+    "correctIndex": 2,
+    "explanation": "El margen es $250 - $150 = $100; $30,000 / $100 = 300."
+  },
+  {
+    "id": "IND-10",
+    "area": "Ingeniería Industrial",
+    "topic": "Rotación de inventario",
+    "difficulty": "media",
+    "question": "El costo anual de ventas es de $600,000 y el inventario promedio es de $150,000. ¿Cuál es la rotación anual del inventario?",
+    "options": [
+      "2 veces",
+      "4 veces",
+      "6 veces",
+      "9 veces"
+    ],
+    "correctIndex": 1,
+    "explanation": "600,000 / 150,000 = 4."
+  },
+  {
+    "id": "IND-11",
+    "area": "Ingeniería Industrial",
+    "topic": "Eficiencia global del equipo",
+    "difficulty": "avanzada",
+    "question": "Un equipo tiene disponibilidad de 90 %, rendimiento de 95 % y calidad de 98 %. ¿Cuál es aproximadamente su OEE?",
+    "options": [
+      "79.10 %",
+      "83.79 %",
+      "90.00 %",
+      "93.10 %"
+    ],
+    "correctIndex": 1,
+    "explanation": "0.90 × 0.95 × 0.98 = 0.8379."
+  },
+  {
+    "id": "IND-12",
+    "area": "Ingeniería Industrial",
+    "topic": "Probabilidad conjunta",
+    "difficulty": "media",
+    "question": "Dos eventos independientes tienen probabilidades de 0.8 y 0.9. ¿Cuál es la probabilidad de que ocurran ambos?",
+    "options": [
+      "0.17",
+      "0.72",
+      "0.80",
+      "1.70"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para eventos independientes se multiplican las probabilidades: 0.8 × 0.9 = 0.72."
+  },
+  {
+    "id": "IND-13",
+    "area": "Ingeniería Industrial",
+    "topic": "Conversión de tiempo",
+    "difficulty": "básica",
+    "question": "¿Cuántos minutos representan 2.5 horas?",
+    "options": [
+      "120",
+      "130",
+      "150",
+      "250"
+    ],
+    "correctIndex": 2,
+    "explanation": "2.5 × 60 = 150 minutos."
+  },
+  {
+    "id": "IND-14",
+    "area": "Ingeniería Industrial",
+    "topic": "Metodología 5S",
+    "difficulty": "básica",
+    "question": "¿Qué etapa de 5S busca asignar un lugar definido a cada herramienta para encontrarla con facilidad?",
+    "options": [
+      "Clasificar",
+      "Ordenar",
+      "Limpiar",
+      "Disciplina"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ordenar establece ubicaciones identificadas para los elementos necesarios."
+  },
+  {
+    "id": "IND-15",
+    "area": "Ingeniería Industrial",
+    "topic": "Principio de Pareto",
+    "difficulty": "básica",
+    "question": "¿Para qué se utiliza principalmente un diagrama de Pareto en calidad?",
+    "options": [
+      "Para dibujar la distribución física de una planta",
+      "Para priorizar las pocas causas que generan la mayor parte del efecto",
+      "Para calcular el salario promedio",
+      "Para sustituir todas las inspecciones"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pareto ayuda a concentrar esfuerzos en las causas con mayor impacto acumulado."
+  },
+  {
+    "id": "IND-16",
+    "area": "Ingeniería Industrial",
+    "topic": "Gráficas de control",
+    "difficulty": "media",
+    "question": "En una gráfica de control, un punto aparece fuera de los límites de control. ¿Cuál es la interpretación inicial más adecuada?",
+    "options": [
+      "El proceso necesariamente cumple todas las especificaciones",
+      "Puede existir una causa especial que debe investigarse",
+      "La media siempre debe aumentarse",
+      "El producto debe enviarse sin revisión"
+    ],
+    "correctIndex": 1,
+    "explanation": "Un punto fuera de límites es una señal de posible variación por causa especial; debe investigarse antes de tomar decisiones."
+  },
+  {
+    "id": "IND-17",
+    "area": "Ingeniería Industrial",
+    "topic": "Desperdicios Lean",
+    "difficulty": "básica",
+    "question": "Mover materiales repetidamente entre edificios sin transformar el producto es principalmente un desperdicio de:",
+    "options": [
+      "Sobreproducción",
+      "Transporte",
+      "Talento",
+      "Defectos"
+    ],
+    "correctIndex": 1,
+    "explanation": "El traslado innecesario no agrega valor y aumenta tiempo y riesgo."
+  },
+  {
+    "id": "IND-18",
+    "area": "Ingeniería Industrial",
+    "topic": "Ergonomía",
+    "difficulty": "básica",
+    "question": "¿Cuál es el propósito principal de ajustar la altura de una estación de trabajo a las características de la persona?",
+    "options": [
+      "Incrementar el inventario",
+      "Reducir posturas forzadas y riesgo de lesiones",
+      "Eliminar la capacitación",
+      "Aumentar el ruido"
+    ],
+    "correctIndex": 1,
+    "explanation": "La ergonomía adapta el trabajo a la persona para reducir esfuerzo innecesario y riesgo musculoesquelético."
+  },
+  {
+    "id": "IND-19",
+    "area": "Ingeniería Industrial",
+    "topic": "Capacidad por tiempo de ciclo",
+    "difficulty": "media",
+    "question": "Una operación tarda 3 minutos por unidad y trabaja durante 60 minutos sin interrupciones. ¿Cuál es su capacidad teórica por hora?",
+    "options": [
+      "15 unidades",
+      "20 unidades",
+      "30 unidades",
+      "180 unidades"
+    ],
+    "correctIndex": 1,
+    "explanation": "60 minutos / 3 minutos por unidad = 20 unidades."
+  },
+  {
+    "id": "IND-20",
+    "area": "Ingeniería Industrial",
+    "topic": "Restricción de recursos",
+    "difficulty": "media",
+    "question": "En un modelo de producción, la restricción 2x + 3y ≤ 120 representa que:",
+    "options": [
+      "Se deben producir exactamente 120 productos",
+      "El consumo de un recurso no puede superar 120 unidades",
+      "Los productos no tienen costo",
+      "La producción de ambos productos debe ser igual"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los coeficientes representan consumo por producto y 120 es la disponibilidad máxima del recurso. | ID | Respuesta | |---|---| | IND-01 | B | | IND-02 | C | | IND-03 | B | | IND-04 | B | | IND-05 | C | | IND-06 | B | | IND-07 | C | | IND-08 | C | | IND-09 | C | | IND-10 | B | | IND-11 | B | | IND-12 | B | | IND-13 | C | | IND-14 | B | | IND-15 | B | | IND-16 | B | | IND-17 | B | | IND-18 | B | | IND-19 | B | | IND-20 | B |"
+  },
+  {
+    "id": "IND-21",
+    "area": "Ingeniería Industrial",
+    "topic": "Investigación de operaciones",
+    "difficulty": "media",
+    "question": "¿Qué busca una función objetivo en programación lineal?",
+    "options": [
+      "Maximizar o minimizar una medida",
+      "Eliminar restricciones",
+      "Crear datos aleatorios",
+      "Dibujar el layout"
+    ],
+    "correctIndex": 0,
+    "explanation": "Representa el criterio que se optimiza."
+  },
+  {
+    "id": "IND-22",
+    "area": "Ingeniería Industrial",
+    "topic": "Investigación de operaciones",
+    "difficulty": "media",
+    "question": "En programación lineal, una restricción representa:",
+    "options": [
+      "Un límite o requisito del sistema",
+      "La respuesta final siempre",
+      "Una variable aleatoria",
+      "Un costo hundido"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las restricciones delimitan las soluciones factibles."
+  },
+  {
+    "id": "IND-23",
+    "area": "Ingeniería Industrial",
+    "topic": "Calidad",
+    "difficulty": "básica",
+    "question": "¿Qué significa mejora continua?",
+    "options": [
+      "Realizar cambios sistemáticos y sostenidos",
+      "Cambiar todo sin medir",
+      "Inspeccionar solo al final",
+      "Evitar estándares"
+    ],
+    "correctIndex": 0,
+    "explanation": "La mejora continua usa ciclos de evaluación y ajuste."
+  },
+  {
+    "id": "IND-24",
+    "area": "Ingeniería Industrial",
+    "topic": "Calidad",
+    "difficulty": "media",
+    "question": "¿Qué herramienta ayuda a priorizar causas según frecuencia o impacto acumulado?",
+    "options": [
+      "Diagrama de Pareto",
+      "Organigrama",
+      "Cronograma",
+      "Plano arquitectónico"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pareto ordena categorías para identificar las de mayor contribución."
+  },
+  {
+    "id": "IND-25",
+    "area": "Ingeniería Industrial",
+    "topic": "Calidad",
+    "difficulty": "media",
+    "question": "¿Qué representa una causa común en control estadístico?",
+    "options": [
+      "Variación inherente al proceso",
+      "Una falla extraordinaria identificable",
+      "Un error de captura siempre",
+      "Ausencia total de variación"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las causas comunes pertenecen al funcionamiento habitual del proceso."
+  },
+  {
+    "id": "IND-26",
+    "area": "Ingeniería Industrial",
+    "topic": "Producción",
+    "difficulty": "media",
+    "question": "¿Qué objetivo tiene un sistema pull?",
+    "options": [
+      "Producir según demanda real",
+      "Maximizar inventario",
+      "Ignorar al cliente",
+      "Fabricar sin límite"
+    ],
+    "correctIndex": 0,
+    "explanation": "La demanda posterior activa la reposición."
+  },
+  {
+    "id": "IND-27",
+    "area": "Ingeniería Industrial",
+    "topic": "Producción",
+    "difficulty": "básica",
+    "question": "¿Qué es trabajo en proceso o WIP?",
+    "options": [
+      "Unidades iniciadas aún no terminadas",
+      "Producto vendido",
+      "Materia prima sin liberar",
+      "Desecho únicamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "WIP incluye productos entre operaciones."
+  },
+  {
+    "id": "IND-28",
+    "area": "Ingeniería Industrial",
+    "topic": "Producción",
+    "difficulty": "media",
+    "question": "Si aumenta el WIP manteniendo igual la tasa de salida, la ley de Little indica que el tiempo de flujo:",
+    "options": [
+      "Tiende a aumentar",
+      "Siempre disminuye",
+      "Se vuelve cero",
+      "No puede medirse"
+    ],
+    "correctIndex": 0,
+    "explanation": "WIP = tasa de salida × tiempo de flujo."
+  },
+  {
+    "id": "IND-29",
+    "area": "Ingeniería Industrial",
+    "topic": "Logística",
+    "difficulty": "básica",
+    "question": "¿Qué función cumple un centro de distribución?",
+    "options": [
+      "Recibir, almacenar y despachar productos",
+      "Diseñar campañas exclusivamente",
+      "Fabricar todos los componentes",
+      "Eliminar registros"
+    ],
+    "correctIndex": 0,
+    "explanation": "Coordina el flujo físico hacia los destinos."
+  },
+  {
+    "id": "IND-30",
+    "area": "Ingeniería Industrial",
+    "topic": "Logística",
+    "difficulty": "media",
+    "question": "¿Qué es el punto de reorden?",
+    "options": [
+      "Nivel de inventario que activa una reposición",
+      "Máximo precio de venta",
+      "Cantidad defectuosa",
+      "Capacidad del camión"
+    ],
+    "correctIndex": 0,
+    "explanation": "Considera demanda esperada durante el plazo y, si aplica, seguridad."
+  },
+  {
+    "id": "IND-31",
+    "area": "Ingeniería Industrial",
+    "topic": "Logística",
+    "difficulty": "media",
+    "question": "¿Para qué sirve el inventario de seguridad?",
+    "options": [
+      "Cubrir incertidumbre de demanda o suministro",
+      "Sustituir todos los pronósticos",
+      "Eliminar costos de almacenamiento",
+      "Aumentar defectos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Protege el nivel de servicio ante variabilidad."
+  },
+  {
+    "id": "IND-32",
+    "area": "Ingeniería Industrial",
+    "topic": "Ergonomía",
+    "difficulty": "básica",
+    "question": "¿Qué busca la ergonomía?",
+    "options": [
+      "Adaptar el trabajo a las capacidades humanas",
+      "Aumentar cargas sin límite",
+      "Eliminar descansos",
+      "Ignorar posturas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Diseña tareas y puestos compatibles con las personas."
+  },
+  {
+    "id": "IND-33",
+    "area": "Ingeniería Industrial",
+    "topic": "Seguridad industrial",
+    "difficulty": "básica",
+    "question": "¿Cuál es la primera opción en la jerarquía de controles?",
+    "options": [
+      "Eliminar el peligro",
+      "Usar equipo personal",
+      "Colocar un letrero",
+      "Capacitar únicamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Eliminar el peligro es más eficaz que depender del comportamiento."
+  },
+  {
+    "id": "IND-34",
+    "area": "Ingeniería Industrial",
+    "topic": "Seguridad industrial",
+    "difficulty": "media",
+    "question": "¿Qué diferencia hay entre peligro y riesgo?",
+    "options": [
+      "Peligro es fuente de daño; riesgo combina probabilidad y consecuencia",
+      "Son sinónimos absolutos",
+      "Riesgo es solo costo",
+      "Peligro es una probabilidad"
+    ],
+    "correctIndex": 0,
+    "explanation": "El peligro puede causar daño; el riesgo estima su materialización."
+  },
+  {
+    "id": "IND-35",
+    "area": "Ingeniería Industrial",
+    "topic": "Estudio del trabajo",
+    "difficulty": "media",
+    "question": "¿Para qué se usa un estudio de tiempos?",
+    "options": [
+      "Establecer un tiempo estándar bajo condiciones definidas",
+      "Calcular impuestos",
+      "Diseñar logotipos",
+      "Eliminar operaciones sin observar"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mide y ajusta el tiempo requerido por una tarea."
+  },
+  {
+    "id": "IND-36",
+    "area": "Ingeniería Industrial",
+    "topic": "Distribución de planta",
+    "difficulty": "media",
+    "question": "¿Qué busca reducir una buena distribución de planta?",
+    "options": [
+      "Recorridos y manejo innecesario de materiales",
+      "Visibilidad del proceso",
+      "Seguridad",
+      "Flujo continuo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una distribución adecuada mejora el flujo y reduce transporte."
+  },
+  {
+    "id": "IND-37",
+    "area": "Ingeniería Industrial",
+    "topic": "Mantenimiento",
+    "difficulty": "básica",
+    "question": "¿Qué caracteriza al mantenimiento preventivo?",
+    "options": [
+      "Se programa antes de la falla",
+      "Solo ocurre después de fallar",
+      "No usa historial",
+      "Elimina inspecciones"
+    ],
+    "correctIndex": 0,
+    "explanation": "Busca reducir la probabilidad de falla mediante acciones planificadas."
+  },
+  {
+    "id": "IND-38",
+    "area": "Ingeniería Industrial",
+    "topic": "Mantenimiento",
+    "difficulty": "media",
+    "question": "¿Qué mide el MTBF?",
+    "options": [
+      "Tiempo medio entre fallas",
+      "Tiempo medio de reparación",
+      "Costo total de calidad",
+      "Inventario promedio"
+    ],
+    "correctIndex": 0,
+    "explanation": "MTBF estima la confiabilidad de equipos reparables."
+  },
+  {
+    "id": "IND-39",
+    "area": "Ingeniería Industrial",
+    "topic": "Proyectos",
+    "difficulty": "media",
+    "question": "¿Qué indica la ruta crítica?",
+    "options": [
+      "La secuencia que determina la duración mínima del proyecto",
+      "Las tareas más baratas",
+      "Los recursos sobrantes",
+      "El organigrama"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un retraso en esa ruta retrasa el proyecto si no hay holgura."
+  },
+  {
+    "id": "IND-40",
+    "area": "Ingeniería Industrial",
+    "topic": "Sostenibilidad",
+    "difficulty": "media",
+    "question": "¿Qué práctica apoya una producción más limpia?",
+    "options": [
+      "Prevenir residuos desde el proceso",
+      "Tratar todo al final únicamente",
+      "Aumentar consumo sin medir",
+      "Ocultar emisiones"
+    ],
+    "correctIndex": 0,
+    "explanation": "La prevención en la fuente reduce impactos y costos. ## Resumen de respuestas | ID | Respuesta | |---|---| | IND-01 | B | | IND-02 | C | | IND-03 | B | | IND-04 | B | | IND-05 | C | | IND-06 | B | | IND-07 | C | | IND-08 | C | | IND-09 | C | | IND-10 | B | | IND-11 | B | | IND-12 | B | | IND-13 | C | | IND-14 | B | | IND-15 | B | | IND-16 | B | | IND-17 | B | | IND-18 | B | | IND-19 | B | | IND-20 | B | | IND-21 | A | | IND-22 | A | | IND-23 | A | | IND-24 | A | | IND-25 | A | | IND-26 | A | | IND-27 | A | | IND-28 | A | | IND-29 | A | | IND-30 | A | | IND-31 | A | | IND-32 | A | | IND-33 | A | | IND-34 | A | | IND-35 | A | | IND-36 | A | | IND-37 | A | | IND-38 | A | | IND-39 | A | | IND-40 | A |"
+  }
+]

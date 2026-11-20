@@ -1,0 +1,602 @@
+[
+  {
+    "id": "SIS-01",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Variables",
+    "difficulty": "básica",
+    "question": "¿Cuál es la función principal de una variable en programación?",
+    "options": [
+      "Dibujar automáticamente una interfaz",
+      "Almacenar un valor que puede utilizarse o modificarse",
+      "Conectar físicamente una computadora",
+      "Evitar que el programa tenga condiciones"
+    ],
+    "correctIndex": 1,
+    "explanation": "Una variable asocia un nombre con un valor que el programa puede consultar o modificar."
+  },
+  {
+    "id": "SIS-02",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Condiciones",
+    "difficulty": "básica",
+    "question": "¿Qué estructura permite ejecutar un bloque únicamente cuando una expresión es verdadera?",
+    "options": [
+      "if",
+      "import",
+      "class",
+      "return"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una condición if evalúa una expresión y decide si ejecuta el bloque asociado."
+  },
+  {
+    "id": "SIS-03",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Arreglos",
+    "difficulty": "básica",
+    "question": "¿Cuál es una característica de un arreglo?",
+    "options": [
+      "Solo puede contener un elemento durante toda la ejecución",
+      "Organiza varios elementos y permite acceder a ellos mediante índices",
+      "Sustituye al sistema operativo",
+      "Siempre almacena archivos en Internet"
+    ],
+    "correctIndex": 1,
+    "explanation": "Un arreglo mantiene una colección ordenada cuyos elementos se consultan normalmente por posición."
+  },
+  {
+    "id": "SIS-04",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Funciones",
+    "difficulty": "básica",
+    "question": "¿Cuál es una ventaja de encapsular una operación repetida en una función?",
+    "options": [
+      "Duplica deliberadamente el código",
+      "Facilita la reutilización, prueba y mantenimiento",
+      "Impide utilizar parámetros",
+      "Elimina la necesidad de nombres descriptivos"
+    ],
+    "correctIndex": 1,
+    "explanation": "Una función agrupa una responsabilidad y puede invocarse desde distintos puntos sin repetir su implementación."
+  },
+  {
+    "id": "SIS-05",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Complejidad lineal",
+    "difficulty": "media",
+    "question": "Un algoritmo recorre una lista de n elementos una sola vez. ¿Cuál es normalmente su complejidad temporal?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n²)"
+    ],
+    "correctIndex": 2,
+    "explanation": "El número de operaciones crece aproximadamente en proporción al número de elementos."
+  },
+  {
+    "id": "SIS-06",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Búsqueda binaria",
+    "difficulty": "media",
+    "question": "¿Qué condición requiere la búsqueda binaria para funcionar correctamente sobre una lista?",
+    "options": [
+      "Que la lista esté ordenada",
+      "Que todos los valores sean iguales",
+      "Que no existan índices",
+      "Que los datos estén en una imagen"
+    ],
+    "correctIndex": 0,
+    "explanation": "La búsqueda binaria descarta mitades según el orden de los datos."
+  },
+  {
+    "id": "SIS-07",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Pila",
+    "difficulty": "básica",
+    "question": "¿Qué principio describe una estructura de datos tipo pila?",
+    "options": [
+      "Primero en entrar, primero en salir",
+      "Último en entrar, primero en salir",
+      "Acceso exclusivamente aleatorio",
+      "Orden alfabético obligatorio"
+    ],
+    "correctIndex": 1,
+    "explanation": "Una pila sigue el principio LIFO: el último elemento agregado es el primero que se retira."
+  },
+  {
+    "id": "SIS-08",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Cola",
+    "difficulty": "básica",
+    "question": "¿Qué principio describe una cola convencional?",
+    "options": [
+      "Primero en entrar, primero en salir",
+      "Último en entrar, primero en salir",
+      "El elemento central sale primero",
+      "Todos los elementos salen simultáneamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una cola sigue el principio FIFO."
+  },
+  {
+    "id": "SIS-09",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Llave primaria",
+    "difficulty": "básica",
+    "question": "¿Cuál es la finalidad principal de una llave primaria en una tabla relacional?",
+    "options": [
+      "Cambiar el color de la tabla",
+      "Identificar de manera única cada registro",
+      "Repetir filas automáticamente",
+      "Guardar únicamente contraseñas"
+    ],
+    "correctIndex": 1,
+    "explanation": "La llave primaria distingue cada fila y no debe duplicarse."
+  },
+  {
+    "id": "SIS-10",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Normalización",
+    "difficulty": "media",
+    "question": "¿Qué busca principalmente la normalización de una base de datos relacional?",
+    "options": [
+      "Aumentar deliberadamente la redundancia",
+      "Reducir redundancia y anomalías de actualización",
+      "Convertir todas las tablas en imágenes",
+      "Eliminar todas las relaciones"
+    ],
+    "correctIndex": 1,
+    "explanation": "La normalización organiza los datos para disminuir duplicación y problemas de inserción, modificación o eliminación."
+  },
+  {
+    "id": "SIS-11",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Consulta SQL",
+    "difficulty": "media",
+    "question": "¿Qué consulta obtiene los usuarios cuyo campo activo vale 1?",
+    "options": [
+      "SELECT * FROM usuarios WHERE activo = 1;",
+      "DELETE usuarios activo = 1;",
+      "INSERT FROM usuarios WHERE activo;",
+      "UPDATE * usuarios;"
+    ],
+    "correctIndex": 0,
+    "explanation": "SELECT consulta filas y WHERE aplica la condición."
+  },
+  {
+    "id": "SIS-12",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Método HTTP",
+    "difficulty": "básica",
+    "question": "¿Qué método HTTP se utiliza normalmente para obtener un recurso sin modificarlo?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctIndex": 0,
+    "explanation": "GET solicita una representación del recurso."
+  },
+  {
+    "id": "SIS-13",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Creación mediante API",
+    "difficulty": "básica",
+    "question": "Una API crea correctamente un nuevo registro. ¿Qué código de estado HTTP comunica específicamente que el recurso fue creado?",
+    "options": [
+      "200",
+      "201",
+      "404",
+      "500"
+    ],
+    "correctIndex": 1,
+    "explanation": "201 Created indica la creación exitosa de un recurso."
+  },
+  {
+    "id": "SIS-14",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "JSON válido",
+    "difficulty": "básica",
+    "question": "¿Cuál opción representa un objeto JSON válido?",
+    "options": [
+      "{nombre: 'Ana', edad: 20}",
+      "{\"nombre\": \"Ana\", \"edad\": 20}",
+      "nombre = Ana; edad = 20",
+      "<nombre>Ana</nombre>"
+    ],
+    "correctIndex": 1,
+    "explanation": "En JSON, los nombres de las propiedades y las cadenas utilizan comillas dobles."
+  },
+  {
+    "id": "SIS-15",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "REST sin estado",
+    "difficulty": "media",
+    "question": "¿Qué significa que una API REST sea sin estado (stateless)?",
+    "options": [
+      "Que nunca devuelve respuestas",
+      "Que cada solicitud contiene la información necesaria para ser procesada",
+      "Que solo puede usarse una vez",
+      "Que no puede manejar datos"
+    ],
+    "correctIndex": 1,
+    "explanation": "El servidor no debe depender de una conversación almacenada para interpretar cada solicitud."
+  },
+  {
+    "id": "SIS-16",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Recurso no encontrado",
+    "difficulty": "básica",
+    "question": "¿Qué código HTTP corresponde normalmente a un recurso que no fue encontrado?",
+    "options": [
+      "201",
+      "301",
+      "404",
+      "503"
+    ],
+    "correctIndex": 2,
+    "explanation": "404 Not Found indica que el servidor no localizó el recurso solicitado."
+  },
+  {
+    "id": "SIS-17",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Dirección IP privada",
+    "difficulty": "media",
+    "question": "¿Cuál de las siguientes direcciones pertenece a un rango privado de IPv4?",
+    "options": [
+      "8.8.8.8",
+      "192.168.1.20",
+      "200.1.1.1",
+      "1.1.1.1"
+    ],
+    "correctIndex": 1,
+    "explanation": "El rango 192.168.0.0/16 está reservado para redes privadas."
+  },
+  {
+    "id": "SIS-18",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "DNS",
+    "difficulty": "básica",
+    "question": "¿Cuál es una función principal del sistema DNS?",
+    "options": [
+      "Traducir nombres de dominio a direcciones IP",
+      "Diseñar interfaces gráficas",
+      "Comprimir imágenes automáticamente",
+      "Sustituir una base de datos"
+    ],
+    "correctIndex": 0,
+    "explanation": "DNS permite localizar servicios mediante nombres legibles y su correspondencia con direcciones de red."
+  },
+  {
+    "id": "SIS-19",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Prueba unitaria",
+    "difficulty": "básica",
+    "question": "¿Qué busca comprobar principalmente una prueba unitaria?",
+    "options": [
+      "Una unidad pequeña de código de forma aislada",
+      "La instalación eléctrica de un edificio",
+      "Todo el sistema en producción con usuarios reales",
+      "La velocidad de conexión del proveedor"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una prueba unitaria verifica una función, método o componente pequeño bajo condiciones controladas."
+  },
+  {
+    "id": "SIS-20",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Control de versiones",
+    "difficulty": "básica",
+    "question": "¿Cuál es una función principal de Git?",
+    "options": [
+      "Registrar cambios y permitir trabajar con versiones del código",
+      "Ejecutar consultas SQL",
+      "Diseñar sprites automáticamente",
+      "Sustituir el sistema operativo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Git mantiene el historial de cambios y facilita comparar, recuperar y combinar versiones. | ID | Respuesta | |---|---| | SIS-01 | B | | SIS-02 | A | | SIS-03 | B | | SIS-04 | B | | SIS-05 | C | | SIS-06 | A | | SIS-07 | B | | SIS-08 | A | | SIS-09 | B | | SIS-10 | B | | SIS-11 | A | | SIS-12 | A | | SIS-13 | B | | SIS-14 | B | | SIS-15 | B | | SIS-16 | C | | SIS-17 | B | | SIS-18 | A | | SIS-19 | A | | SIS-20 | A |"
+  },
+  {
+    "id": "SIS-21",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Algoritmos",
+    "difficulty": "media",
+    "question": "¿Qué complejidad tiene una búsqueda binaria sobre datos ordenados?",
+    "options": [
+      "O(log n)",
+      "O(n²)",
+      "O(2ⁿ)",
+      "O(n!)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cada comparación descarta aproximadamente la mitad."
+  },
+  {
+    "id": "SIS-22",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Algoritmos",
+    "difficulty": "media",
+    "question": "¿Qué requisito tiene la búsqueda binaria?",
+    "options": [
+      "Datos ordenados",
+      "Datos cifrados",
+      "Una base remota",
+      "Duplicados obligatorios"
+    ],
+    "correctIndex": 0,
+    "explanation": "El orden permite decidir qué mitad descartar."
+  },
+  {
+    "id": "SIS-23",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Algoritmos",
+    "difficulty": "básica",
+    "question": "¿Qué propiedad exige que un algoritmo termine?",
+    "options": [
+      "Finitud",
+      "Ambigüedad",
+      "Recursión",
+      "Paralelismo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Debe completar una cantidad finita de pasos."
+  },
+  {
+    "id": "SIS-24",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Ingeniería de software",
+    "difficulty": "básica",
+    "question": "¿Qué describe un requerimiento funcional?",
+    "options": [
+      "Una conducta o servicio del sistema",
+      "El color favorito del equipo",
+      "El salario del cliente",
+      "El lenguaje obligatorio siempre"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expresa qué debe hacer el sistema."
+  },
+  {
+    "id": "SIS-25",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Ingeniería de software",
+    "difficulty": "media",
+    "question": "¿Qué ventaja ofrece separar presentación, lógica y datos?",
+    "options": [
+      "Reduce acoplamiento y facilita cambios",
+      "Elimina todas las pruebas",
+      "Impide reutilización",
+      "Obliga a una sola pantalla"
+    ],
+    "correctIndex": 0,
+    "explanation": "La separación de responsabilidades mejora mantenimiento."
+  },
+  {
+    "id": "SIS-26",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Ingeniería de software",
+    "difficulty": "media",
+    "question": "¿Qué es deuda técnica?",
+    "options": [
+      "Costo futuro provocado por soluciones rápidas o deficientes",
+      "Precio de una licencia",
+      "Impuesto del servidor",
+      "Tiempo de compilación"
+    ],
+    "correctIndex": 0,
+    "explanation": "Atajos actuales pueden aumentar el trabajo posterior."
+  },
+  {
+    "id": "SIS-27",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Aplicaciones móviles",
+    "difficulty": "básica",
+    "question": "¿Qué componente de una app móvil presenta información y recibe interacción?",
+    "options": [
+      "Interfaz de usuario",
+      "Servidor DNS",
+      "Compilador del sistema",
+      "Router"
+    ],
+    "correctIndex": 0,
+    "explanation": "La interfaz conecta al usuario con las funciones."
+  },
+  {
+    "id": "SIS-28",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Aplicaciones móviles",
+    "difficulty": "media",
+    "question": "¿Por qué debe considerarse el ciclo de vida de una pantalla móvil?",
+    "options": [
+      "Puede pausarse, destruirse y recrearse",
+      "Nunca cambia",
+      "Solo existe en computadoras",
+      "Sustituye la base de datos"
+    ],
+    "correctIndex": 0,
+    "explanation": "El sistema administra recursos y transiciones de la aplicación."
+  },
+  {
+    "id": "SIS-29",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Aplicaciones móviles",
+    "difficulty": "media",
+    "question": "¿Qué ventaja tiene un diseño adaptable?",
+    "options": [
+      "Se ajusta a tamaños y orientaciones distintas",
+      "Desactiva accesibilidad",
+      "Evita probar",
+      "Fija todos los píxeles"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mantiene usabilidad en dispositivos variados."
+  },
+  {
+    "id": "SIS-30",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Redes",
+    "difficulty": "básica",
+    "question": "¿Qué dispositivo conecta redes diferentes y enruta paquetes?",
+    "options": [
+      "Router",
+      "Switch de capa 2 únicamente",
+      "Teclado",
+      "Impresora"
+    ],
+    "correctIndex": 0,
+    "explanation": "El router decide rutas entre redes."
+  },
+  {
+    "id": "SIS-31",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Redes",
+    "difficulty": "media",
+    "question": "¿Qué protocolo asigna normalmente direcciones IP de forma automática?",
+    "options": [
+      "DHCP",
+      "HTTP",
+      "FTP",
+      "SMTP"
+    ],
+    "correctIndex": 0,
+    "explanation": "DHCP entrega parámetros de red a los clientes."
+  },
+  {
+    "id": "SIS-32",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Redes",
+    "difficulty": "media",
+    "question": "¿Qué diferencia principal existe entre TCP y UDP?",
+    "options": [
+      "TCP confirma y ordena; UDP prioriza simplicidad y baja sobrecarga",
+      "UDP siempre cifra",
+      "TCP no usa puertos",
+      "Son idénticos"
+    ],
+    "correctIndex": 0,
+    "explanation": "TCP es orientado a conexión; UDP es un servicio de datagramas."
+  },
+  {
+    "id": "SIS-33",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Ciberseguridad",
+    "difficulty": "básica",
+    "question": "¿Qué principio limita permisos a lo estrictamente necesario?",
+    "options": [
+      "Mínimo privilegio",
+      "Disponibilidad total",
+      "Contraseña compartida",
+      "Acceso anónimo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reduce la superficie y el impacto de una cuenta comprometida."
+  },
+  {
+    "id": "SIS-34",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Ciberseguridad",
+    "difficulty": "media",
+    "question": "¿Qué es phishing?",
+    "options": [
+      "Engaño para obtener información o provocar acciones",
+      "Cifrado de disco",
+      "Respaldo incremental",
+      "Prueba unitaria"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suplanta una fuente confiable mediante ingeniería social."
+  },
+  {
+    "id": "SIS-35",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Ciberseguridad",
+    "difficulty": "media",
+    "question": "¿Por qué se usa sal al almacenar contraseñas con hash?",
+    "options": [
+      "Dificulta tablas precalculadas y hashes idénticos",
+      "Permite recuperar la contraseña",
+      "Elimina el hash",
+      "Publica la clave"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una sal única modifica el resultado aun con contraseñas iguales."
+  },
+  {
+    "id": "SIS-36",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Servidores",
+    "difficulty": "básica",
+    "question": "¿Qué función cumple un servidor web?",
+    "options": [
+      "Atender solicitudes HTTP y entregar recursos o respuestas",
+      "Asignar calificaciones automáticamente",
+      "Crear hardware",
+      "Sustituir Internet"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expone contenido y servicios mediante HTTP/HTTPS."
+  },
+  {
+    "id": "SIS-37",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Servidores",
+    "difficulty": "media",
+    "question": "¿Qué beneficio aporta un registro o log?",
+    "options": [
+      "Facilita diagnóstico y auditoría de eventos",
+      "Aumenta errores",
+      "Sustituye respaldos",
+      "Oculta fallas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los registros permiten reconstruir lo ocurrido."
+  },
+  {
+    "id": "SIS-38",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Servidores",
+    "difficulty": "media",
+    "question": "¿Qué es una copia de seguridad incremental?",
+    "options": [
+      "Guarda cambios desde el último respaldo",
+      "Copia siempre todo",
+      "No conserva datos",
+      "Solo guarda contraseñas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reduce tiempo y espacio al almacenar cambios recientes."
+  },
+  {
+    "id": "SIS-39",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "Bases de datos",
+    "difficulty": "media",
+    "question": "¿Qué propiedad garantiza que una transacción se complete por completo o no se aplique?",
+    "options": [
+      "Atomicidad",
+      "Redundancia",
+      "Latencia",
+      "Indexación"
+    ],
+    "correctIndex": 0,
+    "explanation": "Es la A de las propiedades ACID."
+  },
+  {
+    "id": "SIS-40",
+    "area": "Ingeniería en Sistemas y Tecnologías Computacionales",
+    "topic": "APIs",
+    "difficulty": "media",
+    "question": "¿Qué método HTTP se usa normalmente para actualizar por completo un recurso conocido?",
+    "options": [
+      "PUT",
+      "GET",
+      "HEAD",
+      "OPTIONS únicamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "PUT suele representar reemplazo o actualización idempotente. ## Resumen de respuestas | ID | Respuesta | |---|---| | SIS-01 | B | | SIS-02 | A | | SIS-03 | B | | SIS-04 | B | | SIS-05 | C | | SIS-06 | A | | SIS-07 | B | | SIS-08 | A | | SIS-09 | B | | SIS-10 | B | | SIS-11 | A | | SIS-12 | A | | SIS-13 | B | | SIS-14 | B | | SIS-15 | B | | SIS-16 | C | | SIS-17 | B | | SIS-18 | A | | SIS-19 | A | | SIS-20 | A | | SIS-21 | A | | SIS-22 | A | | SIS-23 | A | | SIS-24 | A | | SIS-25 | A | | SIS-26 | A | | SIS-27 | A | | SIS-28 | A | | SIS-29 | A | | SIS-30 | A | | SIS-31 | A | | SIS-32 | A | | SIS-33 | A | | SIS-34 | A | | SIS-35 | A | | SIS-36 | A | | SIS-37 | A | | SIS-38 | A | | SIS-39 | A | | SIS-40 | A |"
+  }
+]

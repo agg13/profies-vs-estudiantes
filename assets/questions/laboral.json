@@ -1,0 +1,602 @@
+[
+  {
+    "id": "LAB-01",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Instrucciones poco claras",
+    "difficulty": "básica",
+    "question": "Recibes una tarea cuya instrucción y fecha de entrega no son claras. ¿Cuál es la respuesta profesional más adecuada?",
+    "options": [
+      "Suponer el alcance y entregar lo que resulte",
+      "Ignorarla hasta que alguien pregunte",
+      "Solicitar aclaraciones y confirmar alcance, prioridad y fecha",
+      "Transferirla a otra persona sin avisar"
+    ],
+    "correctIndex": 2,
+    "explanation": "Confirmar expectativas reduce errores, retrabajo y conflictos."
+  },
+  {
+    "id": "LAB-02",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Priorización",
+    "difficulty": "básica",
+    "question": "Tienes varias tareas y una de ellas afecta inmediatamente la operación de un cliente. ¿Qué debes hacer primero?",
+    "options": [
+      "Atenderla según su impacto y urgencia, informando los ajustes necesarios",
+      "Elegir la tarea más sencilla",
+      "Ignorar todos los plazos",
+      "Trabajar únicamente en orden alfabético"
+    ],
+    "correctIndex": 0,
+    "explanation": "Priorizar por impacto y urgencia permite atender riesgos críticos sin perder comunicación con los involucrados."
+  },
+  {
+    "id": "LAB-03",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Retroalimentación",
+    "difficulty": "básica",
+    "question": "¿Cuál es una característica de la retroalimentación constructiva?",
+    "options": [
+      "Ataca la personalidad de quien cometió el error",
+      "Describe una conducta observable y propone una mejora concreta",
+      "Se comunica públicamente para avergonzar",
+      "Evita mencionar cualquier problema"
+    ],
+    "correctIndex": 1,
+    "explanation": "La retroalimentación útil se enfoca en hechos, efectos y acciones de mejora, no en descalificaciones personales."
+  },
+  {
+    "id": "LAB-04",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Resolución de conflictos",
+    "difficulty": "media",
+    "question": "Dos integrantes tienen un desacuerdo que retrasa un proyecto. ¿Cuál es el primer enfoque más adecuado?",
+    "options": [
+      "Escuchar ambas perspectivas, identificar hechos y buscar un acuerdo",
+      "Difundir el problema con todo el personal",
+      "Ignorar el conflicto indefinidamente",
+      "Eliminar toda comunicación entre ellos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Escuchar y separar hechos de interpretaciones permite construir soluciones orientadas al objetivo común."
+  },
+  {
+    "id": "LAB-05",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Confidencialidad",
+    "difficulty": "básica",
+    "question": "Un compañero solicita datos confidenciales de un cliente, pero no participa en el proyecto. ¿Qué debes hacer?",
+    "options": [
+      "Compartirlos por confianza personal",
+      "Publicarlos en un grupo general",
+      "Verificar su autorización y no compartirlos si no tiene acceso justificado",
+      "Enviarlos desde una cuenta personal"
+    ],
+    "correctIndex": 2,
+    "explanation": "El acceso debe limitarse a personas autorizadas y con una necesidad laboral legítima."
+  },
+  {
+    "id": "LAB-06",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Riesgo de seguridad",
+    "difficulty": "básica",
+    "question": "Detectas un cable expuesto en una zona de paso. ¿Cuál es la acción más adecuada?",
+    "options": [
+      "Continuar trabajando y esperar que alguien más lo vea",
+      "Proteger o aislar la zona y reportar el riesgo por el canal correspondiente",
+      "Cubrirlo con papel",
+      "Tomar una fotografía para redes sociales"
+    ],
+    "correctIndex": 1,
+    "explanation": "Primero se previene la exposición al peligro y después se activa el procedimiento de corrección."
+  },
+  {
+    "id": "LAB-07",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Correo profesional",
+    "difficulty": "básica",
+    "question": "¿Qué combinación es más apropiada para un correo profesional?",
+    "options": [
+      "Asunto claro, saludo, contexto breve, acción solicitada y cierre",
+      "Mensaje sin asunto y escrito completamente en mayúsculas",
+      "Solo un archivo adjunto sin explicación",
+      "Abreviaturas informales sin identificar al remitente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una estructura clara facilita que el destinatario comprenda el propósito y la acción esperada."
+  },
+  {
+    "id": "LAB-08",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Minuta de reunión",
+    "difficulty": "básica",
+    "question": "¿Qué información debe registrar principalmente una minuta?",
+    "options": [
+      "Rumores y conversaciones ajenas al tema",
+      "Acuerdos, responsables y fechas de seguimiento",
+      "Únicamente la hora de inicio",
+      "Contraseñas de los participantes"
+    ],
+    "correctIndex": 1,
+    "explanation": "La minuta sirve para dar seguimiento a decisiones y compromisos."
+  },
+  {
+    "id": "LAB-09",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Retraso en una entrega",
+    "difficulty": "media",
+    "question": "Descubres que no podrás cumplir una fecha comprometida. ¿Qué debes hacer?",
+    "options": [
+      "Ocultarlo hasta que venza el plazo",
+      "Comunicarlo oportunamente, explicar el impacto y proponer un nuevo plan",
+      "Culpar a otra persona sin verificar",
+      "Entregar información falsa"
+    ],
+    "correctIndex": 1,
+    "explanation": "La comunicación temprana permite ajustar expectativas, recursos y prioridades antes de que el impacto aumente."
+  },
+  {
+    "id": "LAB-10",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Error propio",
+    "difficulty": "básica",
+    "question": "Cometes un error que puede afectar el resultado del equipo. ¿Cuál es la respuesta profesional más adecuada?",
+    "options": [
+      "Borrar toda evidencia y guardar silencio",
+      "Informar el error, evaluar su impacto y participar en la corrección",
+      "Modificar los registros para culpar a otra persona",
+      "Esperar que nadie lo descubra"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reconocer y corregir oportunamente protege el proyecto y permite aprender del problema."
+  },
+  {
+    "id": "LAB-11",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Entrevista laboral",
+    "difficulty": "básica",
+    "question": "Durante una entrevista te preguntan sobre una tecnología que no dominas. ¿Cuál es la mejor respuesta?",
+    "options": [
+      "Afirmar experiencia que no tienes",
+      "Reconocer el límite y explicar cómo aprenderías o resolverías la situación",
+      "Cambiar de tema sin responder",
+      "Criticar la tecnología"
+    ],
+    "correctIndex": 1,
+    "explanation": "La honestidad acompañada de capacidad de aprendizaje es más profesional que inventar experiencia."
+  },
+  {
+    "id": "LAB-12",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Currículum",
+    "difficulty": "básica",
+    "question": "¿Qué información aporta más valor en la descripción de una experiencia dentro del currículum?",
+    "options": [
+      "Responsabilidades y resultados verificables relacionados con el puesto",
+      "Datos personales innecesarios de familiares",
+      "Contraseñas de proyectos anteriores",
+      "Afirmaciones que no pueden comprobarse"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los resultados concretos ayudan a demostrar competencias y contribuciones relevantes."
+  },
+  {
+    "id": "LAB-13",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Administración del tiempo",
+    "difficulty": "básica",
+    "question": "Una actividad extensa parece difícil de iniciar. ¿Qué estrategia es más útil?",
+    "options": [
+      "Dividirla en tareas pequeñas con prioridades y plazos",
+      "Esperar hasta el último momento",
+      "Realizar varias tareas sin terminar ninguna",
+      "Eliminar sus criterios de calidad"
+    ],
+    "correctIndex": 0,
+    "explanation": "Descomponer el trabajo facilita estimar, comenzar y controlar el avance."
+  },
+  {
+    "id": "LAB-14",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Delegación",
+    "difficulty": "media",
+    "question": "¿Qué debe comunicarse al delegar una actividad?",
+    "options": [
+      "Solo el nombre de la actividad",
+      "Resultado esperado, alcance, fecha, autoridad y mecanismo de seguimiento",
+      "Información contradictoria para evaluar a la persona",
+      "Ninguna fecha ni criterio"
+    ],
+    "correctIndex": 1,
+    "explanation": "Delegar requiere claridad sobre responsabilidad, recursos, decisiones permitidas y forma de revisar el avance."
+  },
+  {
+    "id": "LAB-15",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Conducta inapropiada",
+    "difficulty": "media",
+    "question": "Una persona recibe comentarios ofensivos reiterados en el trabajo. ¿Cuál es una acción adecuada?",
+    "options": [
+      "Normalizarlos porque son bromas",
+      "Conservar información relevante y utilizar los canales institucionales de apoyo o reporte",
+      "Responder con amenazas",
+      "Publicar datos personales de todos los involucrados"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las conductas ofensivas no deben normalizarse; deben atenderse mediante mecanismos seguros y establecidos."
+  },
+  {
+    "id": "LAB-16",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Aprendizaje continuo",
+    "difficulty": "básica",
+    "question": "Una herramienta importante para tu puesto cambió de versión. ¿Qué respuesta favorece el aprendizaje continuo?",
+    "options": [
+      "Ignorar permanentemente el cambio",
+      "Revisar fuentes confiables, practicar y actualizar el procedimiento",
+      "Utilizar información no verificada como única referencia",
+      "Evitar documentar lo aprendido"
+    ],
+    "correctIndex": 1,
+    "explanation": "Actualizarse requiere consultar información confiable, practicar y transferir el aprendizaje al trabajo."
+  },
+  {
+    "id": "LAB-17",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Cambio de requerimientos",
+    "difficulty": "media",
+    "question": "El cliente solicita un cambio importante cuando el proyecto ya está en desarrollo. ¿Qué se debe hacer antes de implementarlo?",
+    "options": [
+      "Cambiarlo sin registrar consecuencias",
+      "Analizar impacto en alcance, tiempo y costo, documentarlo y confirmar la decisión",
+      "Rechazar automáticamente cualquier cambio",
+      "Eliminar el requerimiento original"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gestionar cambios requiere evaluar sus consecuencias y obtener un acuerdo informado."
+  },
+  {
+    "id": "LAB-18",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Credenciales",
+    "difficulty": "básica",
+    "question": "Un compañero solicita tu contraseña porque necesita terminar una tarea urgente. ¿Qué debes hacer?",
+    "options": [
+      "Compartirla y cambiarla varios meses después",
+      "Negarte a compartirla y buscar un mecanismo autorizado de acceso",
+      "Publicarla en el chat del equipo",
+      "Escribirla en un lugar visible"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las credenciales son personales; el acceso debe concederse mediante procedimientos autorizados y trazables."
+  },
+  {
+    "id": "LAB-19",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Accidente laboral",
+    "difficulty": "básica",
+    "question": "Ocurre un accidente menor en el área de trabajo. ¿Cuál es la respuesta inicial adecuada?",
+    "options": [
+      "Priorizar la seguridad y atención de la persona, controlar el riesgo y reportar el evento",
+      "Ocultarlo para evitar documentación",
+      "Continuar como si nada hubiera ocurrido",
+      "Modificar el lugar antes de revisarlo"
+    ],
+    "correctIndex": 0,
+    "explanation": "La atención de las personas y el control del peligro tienen prioridad; después se documenta e investiga."
+  },
+  {
+    "id": "LAB-20",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Trabajo remoto",
+    "difficulty": "básica",
+    "question": "¿Qué práctica favorece la coordinación en un equipo remoto?",
+    "options": [
+      "Mantener visibles avances, bloqueos, responsables y acuerdos",
+      "Evitar informar cuando existe un impedimento",
+      "Utilizar únicamente mensajes ambiguos",
+      "No documentar decisiones"
+    ],
+    "correctIndex": 0,
+    "explanation": "La visibilidad del trabajo y la comunicación de bloqueos reducen incertidumbre y facilitan la colaboración distribuida. | ID | Respuesta | |---|---| | LAB-01 | C | | LAB-02 | A | | LAB-03 | B | | LAB-04 | A | | LAB-05 | C | | LAB-06 | B | | LAB-07 | A | | LAB-08 | B | | LAB-09 | B | | LAB-10 | B | | LAB-11 | B | | LAB-12 | A | | LAB-13 | A | | LAB-14 | B | | LAB-15 | B | | LAB-16 | B | | LAB-17 | B | | LAB-18 | B | | LAB-19 | A | | LAB-20 | A |"
+  },
+  {
+    "id": "LAB-21",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Ética profesional",
+    "difficulty": "media",
+    "question": "¿Qué debe hacerse ante un conflicto de interés?",
+    "options": [
+      "Declararlo y seguir el procedimiento institucional",
+      "Ocultarlo",
+      "Aprovecharlo",
+      "Borrar registros"
+    ],
+    "correctIndex": 0,
+    "explanation": "La transparencia permite gestionar el conflicto."
+  },
+  {
+    "id": "LAB-22",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Trabajo en equipo",
+    "difficulty": "básica",
+    "question": "¿Qué conducta favorece la colaboración?",
+    "options": [
+      "Compartir avances y bloqueos oportunamente",
+      "Ocultar dependencias",
+      "Competir por información",
+      "Evitar acuerdos"
+    ],
+    "correctIndex": 0,
+    "explanation": "La visibilidad permite coordinar apoyos y decisiones."
+  },
+  {
+    "id": "LAB-23",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Comunicación",
+    "difficulty": "media",
+    "question": "¿Qué técnica confirma que un mensaje fue comprendido?",
+    "options": [
+      "Parafrasear acuerdos y solicitar confirmación",
+      "Repetirlo más fuerte",
+      "Omitir preguntas",
+      "Cambiar el tema"
+    ],
+    "correctIndex": 0,
+    "explanation": "La verificación reduce interpretaciones distintas."
+  },
+  {
+    "id": "LAB-24",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Planeación",
+    "difficulty": "media",
+    "question": "¿Qué es un entregable?",
+    "options": [
+      "Un resultado verificable comprometido",
+      "Cualquier conversación",
+      "Un rumor",
+      "Una contraseña"
+    ],
+    "correctIndex": 0,
+    "explanation": "Debe poder revisarse contra criterios acordados."
+  },
+  {
+    "id": "LAB-25",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Calidad laboral",
+    "difficulty": "media",
+    "question": "¿Qué debe acompañar a un criterio de aceptación?",
+    "options": [
+      "Una condición observable y verificable",
+      "Una opinión secreta",
+      "Una fecha ambigua",
+      "Un dato personal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Permite determinar objetivamente si se cumple."
+  },
+  {
+    "id": "LAB-26",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Protección de datos",
+    "difficulty": "básica",
+    "question": "¿Qué práctica reduce exposición de datos personales?",
+    "options": [
+      "Recolectar solo los necesarios",
+      "Publicarlos por defecto",
+      "Conservarlos sin límite",
+      "Compartir credenciales"
+    ],
+    "correctIndex": 0,
+    "explanation": "La minimización limita el impacto de incidentes."
+  },
+  {
+    "id": "LAB-27",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Reuniones",
+    "difficulty": "básica",
+    "question": "¿Cuándo es útil cancelar o sustituir una reunión por un mensaje?",
+    "options": [
+      "Cuando no requiere discusión ni decisión conjunta",
+      "Cuando hay un conflicto crítico",
+      "Cuando se necesita negociar",
+      "Siempre"
+    ],
+    "correctIndex": 0,
+    "explanation": "La comunicación asíncrona evita reuniones sin propósito."
+  },
+  {
+    "id": "LAB-28",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Liderazgo",
+    "difficulty": "media",
+    "question": "¿Qué hace una persona líder ante un bloqueo del equipo?",
+    "options": [
+      "Ayuda a removerlo y clarifica prioridades",
+      "Busca culpables primero",
+      "Lo oculta",
+      "Agrega tareas sin revisar"
+    ],
+    "correctIndex": 0,
+    "explanation": "El liderazgo habilita el trabajo y gestiona impedimentos."
+  },
+  {
+    "id": "LAB-29",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Negociación",
+    "difficulty": "media",
+    "question": "¿Qué enfoque favorece acuerdos sostenibles?",
+    "options": [
+      "Buscar intereses comunes y alternativas",
+      "Exigir sin escuchar",
+      "Ocultar restricciones",
+      "Cambiar acuerdos unilateralmente"
+    ],
+    "correctIndex": 0,
+    "explanation": "La negociación colaborativa amplía opciones de beneficio mutuo."
+  },
+  {
+    "id": "LAB-30",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Documentación",
+    "difficulty": "básica",
+    "question": "¿Por qué documentar una decisión técnica?",
+    "options": [
+      "Conservar contexto, alternativas y razones",
+      "Evitar toda revisión",
+      "Sustituir el código",
+      "Aumentar burocracia sin propósito"
+    ],
+    "correctIndex": 0,
+    "explanation": "El contexto ayuda a mantener y revisar decisiones."
+  },
+  {
+    "id": "LAB-31",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Estimación",
+    "difficulty": "media",
+    "question": "¿Qué debe hacerse si una estimación tiene alta incertidumbre?",
+    "options": [
+      "Expresar rango, supuestos y riesgos",
+      "Dar una cifra falsa exacta",
+      "Ignorar dependencias",
+      "Eliminar seguimiento"
+    ],
+    "correctIndex": 0,
+    "explanation": "La incertidumbre explícita permite planear mejor."
+  },
+  {
+    "id": "LAB-32",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Atención al cliente",
+    "difficulty": "media",
+    "question": "Ante una queja, ¿cuál es el primer paso profesional?",
+    "options": [
+      "Escuchar, confirmar el problema y registrar evidencia",
+      "Culpar al usuario",
+      "Prometer sin investigar",
+      "Cerrar el caso"
+    ],
+    "correctIndex": 0,
+    "explanation": "Comprender el problema precede a la solución."
+  },
+  {
+    "id": "LAB-33",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Accesibilidad",
+    "difficulty": "básica",
+    "question": "¿Por qué considerar accesibilidad en un producto?",
+    "options": [
+      "Permite uso por personas con distintas capacidades",
+      "Solo cambia colores",
+      "Elimina pruebas",
+      "Es opcional siempre"
+    ],
+    "correctIndex": 0,
+    "explanation": "La accesibilidad amplía el acceso y mejora la experiencia."
+  },
+  {
+    "id": "LAB-34",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Propiedad intelectual",
+    "difficulty": "media",
+    "question": "¿Qué debe verificarse antes de reutilizar un recurso externo?",
+    "options": [
+      "Su licencia y condiciones de atribución",
+      "Solo su tamaño",
+      "El nombre del archivo",
+      "La velocidad de descarga"
+    ],
+    "correctIndex": 0,
+    "explanation": "La licencia determina usos permitidos."
+  },
+  {
+    "id": "LAB-35",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Continuidad",
+    "difficulty": "media",
+    "question": "¿Qué ayuda a continuar una operación ante una ausencia?",
+    "options": [
+      "Documentación, respaldos y responsabilidades claras",
+      "Una sola persona con todo el conocimiento",
+      "Contraseñas compartidas",
+      "No registrar procesos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reduce dependencia de individuos."
+  },
+  {
+    "id": "LAB-36",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Indicadores",
+    "difficulty": "media",
+    "question": "¿Qué característica debe tener un indicador útil?",
+    "options": [
+      "Relacionarse con un objetivo y poder medirse",
+      "Ser imposible de calcular",
+      "Cambiar sin razón",
+      "No tener fuente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un indicador apoya decisiones cuando es pertinente y confiable."
+  },
+  {
+    "id": "LAB-37",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Capacitación",
+    "difficulty": "básica",
+    "question": "¿Cómo se comprueba mejor una capacitación práctica?",
+    "options": [
+      "Mediante una tarea observable con criterios",
+      "Solo asistencia",
+      "Una opinión sin evidencia",
+      "El tiempo conectado"
+    ],
+    "correctIndex": 0,
+    "explanation": "El desempeño demuestra aplicación del aprendizaje."
+  },
+  {
+    "id": "LAB-38",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Cambio organizacional",
+    "difficulty": "media",
+    "question": "¿Qué ayuda a adoptar un nuevo proceso?",
+    "options": [
+      "Explicar propósito, capacitar y acompañar la transición",
+      "Imponerlo sin información",
+      "Cambiarlo cada día",
+      "Ocultar impactos"
+    ],
+    "correctIndex": 0,
+    "explanation": "La adopción requiere comprensión y apoyo."
+  },
+  {
+    "id": "LAB-39",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Sostenibilidad laboral",
+    "difficulty": "básica",
+    "question": "¿Qué práctica favorece una carga de trabajo sostenible?",
+    "options": [
+      "Priorizar, negociar capacidad y comunicar riesgos",
+      "Aceptar todo sin límite",
+      "Omitir descansos",
+      "Ocultar horas extras"
+    ],
+    "correctIndex": 0,
+    "explanation": "La capacidad debe alinearse con compromisos realistas."
+  },
+  {
+    "id": "LAB-40",
+    "area": "Conocimiento general de vida laboral",
+    "topic": "Cierre de proyecto",
+    "difficulty": "media",
+    "question": "¿Qué conviene registrar al cerrar un proyecto?",
+    "options": [
+      "Resultados, pendientes y lecciones aprendidas",
+      "Solo nombres",
+      "Contraseñas",
+      "Rumores"
+    ],
+    "correctIndex": 0,
+    "explanation": "El cierre formal conserva conocimiento y responsabilidades. ## Resumen de respuestas | ID | Respuesta | |---|---| | LAB-01 | C | | LAB-02 | A | | LAB-03 | B | | LAB-04 | A | | LAB-05 | C | | LAB-06 | B | | LAB-07 | A | | LAB-08 | B | | LAB-09 | B | | LAB-10 | B | | LAB-11 | B | | LAB-12 | A | | LAB-13 | A | | LAB-14 | B | | LAB-15 | B | | LAB-16 | B | | LAB-17 | B | | LAB-18 | B | | LAB-19 | A | | LAB-20 | A | | LAB-21 | A | | LAB-22 | A | | LAB-23 | A | | LAB-24 | A | | LAB-25 | A | | LAB-26 | A | | LAB-27 | A | | LAB-28 | A | | LAB-29 | A | | LAB-30 | A | | LAB-31 | A | | LAB-32 | A | | LAB-33 | A | | LAB-34 | A | | LAB-35 | A | | LAB-36 | A | | LAB-37 | A | | LAB-38 | A | | LAB-39 | A | | LAB-40 | A |"
+  }
+]

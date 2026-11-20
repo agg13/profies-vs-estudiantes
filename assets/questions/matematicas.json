@@ -1,0 +1,602 @@
+[
+  {
+    "id": "MAT-01",
+    "area": "Matemáticas",
+    "topic": "Álgebra",
+    "difficulty": "básica",
+    "question": "¿Cuál es la solución de 3x + 5 = 20?",
+    "options": [
+      "3",
+      "5",
+      "15",
+      "25"
+    ],
+    "correctIndex": 1,
+    "explanation": "Al restar 5 y dividir entre 3 se obtiene x = 5."
+  },
+  {
+    "id": "MAT-02",
+    "area": "Matemáticas",
+    "topic": "Álgebra",
+    "difficulty": "básica",
+    "question": "¿Cuál es el producto (x + 2)(x - 2)?",
+    "options": [
+      "x² - 4",
+      "x² + 4",
+      "x² - 2x - 4",
+      "2x² - 4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Es una diferencia de cuadrados."
+  },
+  {
+    "id": "MAT-03",
+    "area": "Matemáticas",
+    "topic": "Álgebra",
+    "difficulty": "media",
+    "question": "Si f(x)=2x²-3, ¿cuánto vale f(2)?",
+    "options": [
+      "1",
+      "5",
+      "8",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sustituir x=2 produce 2(4)-3=5."
+  },
+  {
+    "id": "MAT-04",
+    "area": "Matemáticas",
+    "topic": "Álgebra",
+    "difficulty": "media",
+    "question": "¿Qué valor de x satisface 2/x = 4?",
+    "options": [
+      "1/4",
+      "1/2",
+      "2",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiplicar por x da 2=4x; por tanto x=1/2."
+  },
+  {
+    "id": "MAT-05",
+    "area": "Matemáticas",
+    "topic": "Álgebra",
+    "difficulty": "básica",
+    "question": "¿Cuál es la pendiente de la recta y = -3x + 7?",
+    "options": [
+      "-3",
+      "3",
+      "7",
+      "-7"
+    ],
+    "correctIndex": 0,
+    "explanation": "En y=mx+b, el coeficiente de x es la pendiente."
+  },
+  {
+    "id": "MAT-06",
+    "area": "Matemáticas",
+    "topic": "Álgebra",
+    "difficulty": "media",
+    "question": "¿Cuál es la factorización de x² + 5x + 6?",
+    "options": [
+      "(x+1)(x+6)",
+      "(x+2)(x+3)",
+      "(x-2)(x-3)",
+      "(x+5)(x+1)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los números 2 y 3 suman 5 y multiplican 6."
+  },
+  {
+    "id": "MAT-07",
+    "area": "Matemáticas",
+    "topic": "Álgebra",
+    "difficulty": "media",
+    "question": "Si log10(x)=2, ¿cuál es x?",
+    "options": [
+      "20",
+      "100",
+      "200",
+      "1000"
+    ],
+    "correctIndex": 1,
+    "explanation": "La forma exponencial es x=10²=100."
+  },
+  {
+    "id": "MAT-08",
+    "area": "Matemáticas",
+    "topic": "Álgebra",
+    "difficulty": "básica",
+    "question": "¿Qué conjunto representa las soluciones de x²=9?",
+    "options": [
+      "{3}",
+      "{-3}",
+      "{-3,3}",
+      "{0,9}"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tanto 3 como -3 elevados al cuadrado dan 9."
+  },
+  {
+    "id": "MAT-09",
+    "area": "Matemáticas",
+    "topic": "Álgebra",
+    "difficulty": "media",
+    "question": "¿Cuál es el dominio de 1/(x-4)?",
+    "options": [
+      "Todos los reales",
+      "x mayor que 4",
+      "Todos los reales excepto 4",
+      "Solo x=4"
+    ],
+    "correctIndex": 2,
+    "explanation": "El denominador no puede ser cero."
+  },
+  {
+    "id": "MAT-10",
+    "area": "Matemáticas",
+    "topic": "Álgebra",
+    "difficulty": "media",
+    "question": "El sistema x+y=7 y x-y=1 tiene como solución:",
+    "options": [
+      "x=3,y=4",
+      "x=4,y=3",
+      "x=6,y=1",
+      "x=7,y=0"
+    ],
+    "correctIndex": 1,
+    "explanation": "Al sumar ecuaciones se obtiene 2x=8."
+  },
+  {
+    "id": "MAT-11",
+    "area": "Matemáticas",
+    "topic": "Estadística y probabilidad",
+    "difficulty": "básica",
+    "question": "¿Cuál es la media de 4, 6, 8 y 10?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "La suma es 28 y se divide entre 4."
+  },
+  {
+    "id": "MAT-12",
+    "area": "Matemáticas",
+    "topic": "Estadística y probabilidad",
+    "difficulty": "básica",
+    "question": "¿Cuál es la mediana de 2, 3, 7, 9 y 12?",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "El valor central ordenado es 7."
+  },
+  {
+    "id": "MAT-13",
+    "area": "Matemáticas",
+    "topic": "Estadística y probabilidad",
+    "difficulty": "básica",
+    "question": "Al lanzar un dado justo, ¿cuál es la probabilidad de obtener un número par?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hay tres resultados pares de seis posibles."
+  },
+  {
+    "id": "MAT-14",
+    "area": "Matemáticas",
+    "topic": "Estadística y probabilidad",
+    "difficulty": "media",
+    "question": "Si P(A)=0.4 y P(B)=0.5 para eventos independientes, ¿cuánto vale P(A∩B)?",
+    "options": [
+      "0.1",
+      "0.2",
+      "0.4",
+      "0.9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para eventos independientes se multiplican las probabilidades."
+  },
+  {
+    "id": "MAT-15",
+    "area": "Matemáticas",
+    "topic": "Estadística y probabilidad",
+    "difficulty": "media",
+    "question": "¿Qué mide principalmente la desviación estándar?",
+    "options": [
+      "La posición central",
+      "La dispersión respecto a la media",
+      "El tamaño de la muestra",
+      "La causalidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "Resume cuánto se alejan los datos de su media."
+  },
+  {
+    "id": "MAT-16",
+    "area": "Matemáticas",
+    "topic": "Estadística y probabilidad",
+    "difficulty": "media",
+    "question": "¿Cuál es la probabilidad del complemento de un evento con P(A)=0.35?",
+    "options": [
+      "0.35",
+      "0.50",
+      "0.65",
+      "1.35"
+    ],
+    "correctIndex": 2,
+    "explanation": "P(Aᶜ)=1-P(A)=0.65."
+  },
+  {
+    "id": "MAT-17",
+    "area": "Matemáticas",
+    "topic": "Estadística y probabilidad",
+    "difficulty": "media",
+    "question": "¿Qué distribución modela el número de éxitos en n ensayos independientes con dos resultados?",
+    "options": [
+      "Normal",
+      "Binomial",
+      "Uniforme",
+      "Exponencial"
+    ],
+    "correctIndex": 1,
+    "explanation": "La distribución binomial cuenta éxitos Bernoulli."
+  },
+  {
+    "id": "MAT-18",
+    "area": "Matemáticas",
+    "topic": "Estadística y probabilidad",
+    "difficulty": "básica",
+    "question": "¿Qué gráfico es apropiado para comparar frecuencias de categorías?",
+    "options": [
+      "Diagrama de barras",
+      "Histograma acumulado continuo",
+      "Diagrama de dispersión",
+      "Curva de nivel"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las barras comparan categorías discretas."
+  },
+  {
+    "id": "MAT-19",
+    "area": "Matemáticas",
+    "topic": "Estadística y probabilidad",
+    "difficulty": "media",
+    "question": "En una distribución normal, aproximadamente ¿qué porcentaje queda a una desviación estándar de la media?",
+    "options": [
+      "34 %",
+      "50 %",
+      "68 %",
+      "95 %"
+    ],
+    "correctIndex": 2,
+    "explanation": "La regla empírica indica aproximadamente 68 %."
+  },
+  {
+    "id": "MAT-20",
+    "area": "Matemáticas",
+    "topic": "Estadística y probabilidad",
+    "difficulty": "media",
+    "question": "Una correlación cercana a cero indica principalmente:",
+    "options": [
+      "Ausencia de relación lineal fuerte",
+      "Causalidad perfecta",
+      "Variables idénticas",
+      "Error obligatorio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Puede haber otras relaciones, pero no una asociación lineal fuerte."
+  },
+  {
+    "id": "MAT-21",
+    "area": "Matemáticas",
+    "topic": "Cálculo diferencial",
+    "difficulty": "básica",
+    "question": "¿Cuál es la derivada de x³?",
+    "options": [
+      "x²",
+      "2x",
+      "3x²",
+      "3x"
+    ],
+    "correctIndex": 2,
+    "explanation": "Se aplica la regla de la potencia."
+  },
+  {
+    "id": "MAT-22",
+    "area": "Matemáticas",
+    "topic": "Cálculo diferencial",
+    "difficulty": "media",
+    "question": "¿Cuál es la derivada de sen(x)?",
+    "options": [
+      "cos(x)",
+      "-cos(x)",
+      "sen(x)",
+      "-sen(x)"
+    ],
+    "correctIndex": 0,
+    "explanation": "La derivada de seno es coseno."
+  },
+  {
+    "id": "MAT-23",
+    "area": "Matemáticas",
+    "topic": "Cálculo diferencial",
+    "difficulty": "media",
+    "question": "Si f'(a)=0, entonces a es necesariamente:",
+    "options": [
+      "Un máximo",
+      "Un mínimo",
+      "Un punto crítico",
+      "Una raíz"
+    ],
+    "correctIndex": 2,
+    "explanation": "Derivada cero identifica un punto crítico; requiere más análisis."
+  },
+  {
+    "id": "MAT-24",
+    "area": "Matemáticas",
+    "topic": "Cálculo diferencial",
+    "difficulty": "media",
+    "question": "¿Qué representa geométricamente f'(a)?",
+    "options": [
+      "El área total",
+      "La pendiente de la tangente",
+      "La ordenada al origen",
+      "El dominio"
+    ],
+    "correctIndex": 1,
+    "explanation": "La derivada es la razón de cambio instantánea."
+  },
+  {
+    "id": "MAT-25",
+    "area": "Matemáticas",
+    "topic": "Cálculo diferencial",
+    "difficulty": "media",
+    "question": "¿Cuál es la derivada de e^(2x)?",
+    "options": [
+      "e^(2x)",
+      "2e^(2x)",
+      "e^x",
+      "2xe^(2x)"
+    ],
+    "correctIndex": 1,
+    "explanation": "La regla de la cadena multiplica por 2."
+  },
+  {
+    "id": "MAT-26",
+    "area": "Matemáticas",
+    "topic": "Cálculo integral",
+    "difficulty": "básica",
+    "question": "¿Cuál es una antiderivada de 2x?",
+    "options": [
+      "x² + C",
+      "2x² + C",
+      "x + C",
+      "2 + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "La derivada de x² es 2x."
+  },
+  {
+    "id": "MAT-27",
+    "area": "Matemáticas",
+    "topic": "Cálculo integral",
+    "difficulty": "media",
+    "question": "¿Qué representa una integral definida de una función no negativa?",
+    "options": [
+      "La pendiente instantánea",
+      "El área bajo la curva",
+      "La raíz mayor",
+      "El promedio de x"
+    ],
+    "correctIndex": 1,
+    "explanation": "La integral acumula área en el intervalo."
+  },
+  {
+    "id": "MAT-28",
+    "area": "Matemáticas",
+    "topic": "Cálculo integral",
+    "difficulty": "media",
+    "question": "¿Cuánto vale ∫ de 0 a 2 de x dx?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "[x²/2] de 0 a 2 vale 2."
+  },
+  {
+    "id": "MAT-29",
+    "area": "Matemáticas",
+    "topic": "Cálculo integral",
+    "difficulty": "media",
+    "question": "¿Cuál es ∫ cos(x) dx?",
+    "options": [
+      "sen(x)+C",
+      "-sen(x)+C",
+      "cos(x)+C",
+      "tan(x)+C"
+    ],
+    "correctIndex": 0,
+    "explanation": "La derivada de seno es coseno."
+  },
+  {
+    "id": "MAT-30",
+    "area": "Matemáticas",
+    "topic": "Cálculo integral",
+    "difficulty": "media",
+    "question": "El teorema fundamental del cálculo relaciona principalmente:",
+    "options": [
+      "Matrices y vectores",
+      "Derivación e integración",
+      "Probabilidad y estadística",
+      "Ángulos y triángulos"
+    ],
+    "correctIndex": 1,
+    "explanation": "Establece que derivar e integrar son operaciones inversas bajo condiciones apropiadas."
+  },
+  {
+    "id": "MAT-31",
+    "area": "Matemáticas",
+    "topic": "Álgebra lineal",
+    "difficulty": "básica",
+    "question": "¿Cuándo pueden sumarse dos matrices?",
+    "options": [
+      "Cuando tienen igual determinante",
+      "Cuando tienen las mismas dimensiones",
+      "Cuando ambas son cuadradas",
+      "Siempre"
+    ],
+    "correctIndex": 1,
+    "explanation": "La suma se realiza elemento a elemento en matrices del mismo tamaño."
+  },
+  {
+    "id": "MAT-32",
+    "area": "Matemáticas",
+    "topic": "Álgebra lineal",
+    "difficulty": "básica",
+    "question": "¿Cuál es el vector resultante de (2,1)+(3,-1)?",
+    "options": [
+      "(5,0)",
+      "(1,2)",
+      "(6,-1)",
+      "(5,2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Se suman las componentes correspondientes."
+  },
+  {
+    "id": "MAT-33",
+    "area": "Matemáticas",
+    "topic": "Álgebra lineal",
+    "difficulty": "media",
+    "question": "Una matriz cuadrada es invertible si su determinante es:",
+    "options": [
+      "Igual a cero",
+      "Distinto de cero",
+      "Igual a uno únicamente",
+      "Negativo únicamente"
+    ],
+    "correctIndex": 1,
+    "explanation": "Determinante no nulo implica inversa."
+  },
+  {
+    "id": "MAT-34",
+    "area": "Matemáticas",
+    "topic": "Álgebra lineal",
+    "difficulty": "media",
+    "question": "¿Cuál es el determinante de [[2,0],[0,3]]?",
+    "options": [
+      "0",
+      "5",
+      "6",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "Para una matriz diagonal se multiplican los elementos diagonales."
+  },
+  {
+    "id": "MAT-35",
+    "area": "Matemáticas",
+    "topic": "Álgebra lineal",
+    "difficulty": "básica",
+    "question": "¿Qué representa el producto punto de dos vectores perpendiculares?",
+    "options": [
+      "Un valor negativo",
+      "Cero",
+      "Uno siempre",
+      "Otro vector"
+    ],
+    "correctIndex": 1,
+    "explanation": "El coseno de 90° es cero."
+  },
+  {
+    "id": "MAT-36",
+    "area": "Matemáticas",
+    "topic": "Álgebra lineal",
+    "difficulty": "media",
+    "question": "¿Qué condición caracteriza a un conjunto linealmente independiente?",
+    "options": [
+      "Un vector puede escribirse con los demás",
+      "Solo la combinación trivial produce el vector cero",
+      "Todos los vectores son iguales",
+      "Su suma es uno"
+    ],
+    "correctIndex": 1,
+    "explanation": "Es la definición de independencia lineal."
+  },
+  {
+    "id": "MAT-37",
+    "area": "Matemáticas",
+    "topic": "Álgebra lineal",
+    "difficulty": "media",
+    "question": "¿Qué es un valor propio λ de una matriz A?",
+    "options": [
+      "Un escalar con Av=λv para algún v no nulo",
+      "La suma de todos sus elementos",
+      "Cualquier entrada diagonal",
+      "El número de filas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un valor propio escala una dirección propia sin cambiarla."
+  },
+  {
+    "id": "MAT-38",
+    "area": "Matemáticas",
+    "topic": "Álgebra lineal",
+    "difficulty": "básica",
+    "question": "La matriz identidad multiplicada por un vector produce:",
+    "options": [
+      "El vector cero",
+      "El mismo vector",
+      "El vector opuesto",
+      "Un escalar"
+    ],
+    "correctIndex": 1,
+    "explanation": "La identidad es el elemento neutro de la multiplicación matricial."
+  },
+  {
+    "id": "MAT-39",
+    "area": "Matemáticas",
+    "topic": "Álgebra lineal",
+    "difficulty": "media",
+    "question": "Un sistema lineal con una fila contradictoria 0=5 es:",
+    "options": [
+      "Compatible determinado",
+      "Compatible indeterminado",
+      "Inconsistente",
+      "Homogéneo"
+    ],
+    "correctIndex": 2,
+    "explanation": "La contradicción impide que exista solución."
+  },
+  {
+    "id": "MAT-40",
+    "area": "Matemáticas",
+    "topic": "Álgebra lineal",
+    "difficulty": "media",
+    "question": "¿Cuál es la dimensión de R³?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Infinita"
+    ],
+    "correctIndex": 2,
+    "explanation": "Una base de R³ contiene tres vectores independientes. ## Resumen de respuestas | ID | Respuesta | |---|---| | MAT-01 | B | | MAT-02 | A | | MAT-03 | B | | MAT-04 | B | | MAT-05 | A | | MAT-06 | B | | MAT-07 | B | | MAT-08 | C | | MAT-09 | C | | MAT-10 | B | | MAT-11 | B | | MAT-12 | C | | MAT-13 | C | | MAT-14 | B | | MAT-15 | B | | MAT-16 | C | | MAT-17 | B | | MAT-18 | A | | MAT-19 | C | | MAT-20 | A | | MAT-21 | C | | MAT-22 | A | | MAT-23 | C | | MAT-24 | B | | MAT-25 | B | | MAT-26 | A | | MAT-27 | B | | MAT-28 | B | | MAT-29 | A | | MAT-30 | B | | MAT-31 | B | | MAT-32 | A | | MAT-33 | B | | MAT-34 | C | | MAT-35 | B | | MAT-36 | B | | MAT-37 | A | | MAT-38 | B | | MAT-39 | C | | MAT-40 | C |"
+  }
+]
